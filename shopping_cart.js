@@ -295,13 +295,12 @@ function updateCartTotal(){
             let quantityElement = cartRow.getElementsByClassName("quantity")[0]
 
            let price = parseFloat(priceElement.innerText.replace("$",""))
-                
-
-                total += (price * quantity)
-
+           total += (price * quantity)
 
     }
     totalPrice.textContent = `$${total}`
+
+
 
 
 }
