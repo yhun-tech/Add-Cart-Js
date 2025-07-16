@@ -298,7 +298,8 @@ body{
                             align-items: center;
                             justify-content: space-evenly;
                             flex-wrap: wrap;
-                     
+                            height: 100%;
+                      
                         }
 
                             .act-btn{
@@ -403,7 +404,6 @@ body{
 
                                 /* button */
                                 .button_box{
-                                  
                                     height: 70%;
                                 }
                                     .button_box button{
